@@ -1,3 +1,5 @@
+![image](https://github.com/rbensonevans/SunRa/blob/master/image/sun_god_ra.jpg)
+
 # **SunRa AI**
 
 ## Introduction
