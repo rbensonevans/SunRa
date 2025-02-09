@@ -1,0 +1,95 @@
+benson@Rs-MacBook-Pro hackathon % mkdir onchainkit
+benson@Rs-MacBook-Pro hackathon % cd onchainkit 
+benson@Rs-MacBook-Pro onchainkit % ls
+benson@Rs-MacBook-Pro onchainkit % npm install @coinbase/onchainkit
+npm WARN ERESOLVE overriding peer dependency
+npm WARN deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+npm WARN deprecated @motionone/vue@10.16.4: Motion One for Vue is deprecated. Use Oku Motion instead https://oku-ui.com/motion
+
+added 347 packages in 32s
+
+57 packages are looking for funding
+  run `npm fund` for details
+benson@Rs-MacBook-Pro onchainkit % ls
+node_modules		package-lock.json	package.json
+benson@Rs-MacBook-Pro onchainkit % create onchain
+zsh: command not found: create
+benson@Rs-MacBook-Pro onchainkit % npm create onchain@latest
+Need to install the following packages:
+create-onchain@0.0.16
+Ok to proceed? (y) y
+
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                                                                                                              //
+    //         ::::::::  ::::    :::  ::::::::  :::    :::     :::     ::::::::::: ::::    ::: :::    ::: ::::::::::: :::::::::::   //
+    //       :+:    :+: :+:+:   :+: :+:    :+: :+:    :+:   :+: :+:       :+:     :+:+:   :+: :+:   :+:      :+:         :+:        //
+    //      +:+    +:+ :+:+:+  +:+ +:+        +:+    +:+  +:+   +:+      +:+     :+:+:+  +:+ +:+  +:+       +:+         +:+         //
+    //     +#+    +:+ +#+ +:+ +#+ +#+        +#++:++#++ +#++:++#++:     +#+     +#+ +:+ +#+ +#++:++        +#+         +#+          //
+    //    +#+    +#+ +#+  +#+#+# +#+        +#+    +#+ +#+     +#+     +#+     +#+  +#+#+# +#+  +#+       +#+         +#+           //
+    //   #+#    #+# #+#   #+#+# #+#    #+# #+#    #+# #+#     #+#     #+#     #+#   #+#+# #+#   #+#      #+#         #+#            //
+    //   ########  ###    ####  ########  ###    ### ###     ### ########### ###    #### ###    ### ###########     ###             //
+    //                                                                                                                              //
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+✔ Project name: … SunRaAI-app
+✔ Package name: … sunraai-app
+✔ Enter your Coinbase Developer Platform Client API Key: (optional) … 
+✔ Use Coinbase Smart Wallet? (recommended) … no / yes
+✔ Creating SunRaAI-app...
+
+Created new OnchainKit project in /Users/benson/ETHAgenticEthereum/hackathon/SunRa/hackathon/onchainkit/SunRaAI-app
+
+Integrations:
+✓ Smart Wallet
+✓ Base
+
+Frameworks:
+- Wagmi
+- React
+- Next.js
+- Tailwind CSS
+- ESLint
+
+To get started with SunRaAI-app, run the following commands:
+
+ - cd SunRaAI-app
+ - npm install
+ - npm run dev
+benson@Rs-MacBook-Pro onchainkit %
+
+=============
+
+benson@Rs-MacBook-Pro onchainkit % cd SunRaAI-app 
+benson@Rs-MacBook-Pro SunRaAI-app % npm install
+npm WARN deprecated inflight@1.0.6: This module is not supported, and leaks memory. Do not use it. Check out lru-cache if you want a good and tested way to coalesce async requests by a key value, which is much more comprehensive and powerful.
+npm WARN deprecated lodash.isequal@4.5.0: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
+npm WARN deprecated rimraf@3.0.2: Rimraf versions prior to v4 are no longer supported
+npm WARN deprecated glob@7.2.3: Glob versions prior to v9 are no longer supported
+npm WARN deprecated @motionone/vue@10.16.4: Motion One for Vue is deprecated. Use Oku Motion instead https://oku-ui.com/motion
+npm WARN deprecated @humanwhocodes/object-schema@2.0.3: Use @eslint/object-schema instead
+npm WARN deprecated @humanwhocodes/config-array@0.13.0: Use @eslint/config-array instead
+npm WARN deprecated eslint@8.57.1: This version is no longer supported. Please see https://eslint.org/version-support for other options.
+
+added 651 packages, and audited 652 packages in 36s
+
+177 packages are looking for funding
+  run `npm fund` for details
+
+1 moderate severity vulnerability
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+benson@Rs-MacBook-Pro SunRaAI-app % npm audit fix --force
+npm WARN using --force Recommended protections disabled.
+npm WARN audit Updating next to 14.2.23, which is outside your stated dependency range.
+
+changed 3 packages, and audited 652 packages in 3s
+
+177 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+benson@Rs-MacBook-Pro SunRaAI-app %
