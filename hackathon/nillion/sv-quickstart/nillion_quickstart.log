@@ -1,0 +1,111 @@
+benson@Rs-MacBook-Pro hackathon % mkdir nillion
+benson@Rs-MacBook-Pro hackathon % ls
+nillion
+benson@Rs-MacBook-Pro hackathon % cd nillion
+benson@Rs-MacBook-Pro nillion % ls
+benson@Rs-MacBook-Pro nillion % ls
+benson@Rs-MacBook-Pro nillion % mkdir sv-quickstart
+cd sv-quickstart
+benson@Rs-MacBook-Pro sv-quickstart % ls
+benson@Rs-MacBook-Pro sv-quickstart % npm init es6
+npm i nillion-sv-wrappers
+Need to install the following packages:
+create-es6@1.0.10
+Ok to proceed? (y) y
+npm notice 
+npm notice New major version of npm available! 10.2.4 -> 11.1.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.1.0
+npm notice Run npm install -g npm@11.1.0 to update!
+npm notice 
+npm WARN deprecated multibase@4.0.6: This module has been superseded by the multiformats module
+
+added 19 packages, and audited 20 packages in 3s
+
+6 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+benson@Rs-MacBook-Pro sv-quickstart % ls
+node_modules		package-lock.json	package.json
+benson@Rs-MacBook-Pro sv-quickstart % touch nillionOrgConfig.js
+benson@Rs-MacBook-Pro sv-quickstart % vi nillionOrgConfig.js 
+benson@Rs-MacBook-Pro sv-quickstart % touch schema.json
+benson@Rs-MacBook-Pro sv-quickstart % vi schema.json 
+benson@Rs-MacBook-Pro sv-quickstart % touch postSchema.js
+benson@Rs-MacBook-Pro sv-quickstart % vi postSchema.js 
+benson@Rs-MacBook-Pro sv-quickstart % node postSchema.js
+(node:76331) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+✅ New Collection Schema created for all nodes: [
+  {
+    node: 'https://nildb-zy8u.nillion.network',
+    result: { data: '875efd81-cac2-476e-9046-b55074bd1fad' }
+  },
+  {
+    node: 'https://nildb-rl5g.nillion.network',
+    result: { data: '875efd81-cac2-476e-9046-b55074bd1fad' }
+  },
+  {
+    node: 'https://nildb-lpjp.nillion.network',
+    result: { data: '875efd81-cac2-476e-9046-b55074bd1fad' }
+  }
+]
+👀 Schema ID: 875efd81-cac2-476e-9046-b55074bd1fad
+benson@Rs-MacBook-Pro sv-quickstart % vi ../../../nillion.schema.id
+benson@Rs-MacBook-Pro sv-quickstart % touch index.js
+benson@Rs-MacBook-Pro sv-quickstart % ls
+index.js		node_modules		package.json		schema.json
+nillionOrgConfig.js	package-lock.json	postSchema.js
+benson@Rs-MacBook-Pro sv-quickstart % vi index.js 
+benson@Rs-MacBook-Pro sv-quickstart % !vi
+vi index.js
+
+zsh: suspended  vi index.js
+benson@Rs-MacBook-Pro sv-quickstart % fg
+[1]  + continued  vi index.js
+benson@Rs-MacBook-Pro sv-quickstart % node index.js
+👀 Data written to nodes: [
+  {
+    "node": "https://nildb-zy8u.nillion.network",
+    "result": {
+      "data": {
+        "created": [
+          "66c93465-e985-4731-b629-9e3dc580ebfa"
+        ],
+        "errors": []
+      }
+    }
+  },
+  {
+    "node": "https://nildb-rl5g.nillion.network",
+    "result": {
+      "data": {
+        "created": [
+          "66c93465-e985-4731-b629-9e3dc580ebfa"
+        ],
+        "errors": []
+      }
+    }
+  },
+  {
+    "node": "https://nildb-lpjp.nillion.network",
+    "result": {
+      "data": {
+        "created": [
+          "66c93465-e985-4731-b629-9e3dc580ebfa"
+        ],
+        "errors": []
+      }
+    }
+  }
+]
+uploaded record ids: [ '66c93465-e985-4731-b629-9e3dc580ebfa' ]
+Most recent records [
+  {
+    _id: '66c93465-e985-4731-b629-9e3dc580ebfa',
+    name: 'R. Benson Evans',
+    years_in_web3: 11n,
+    responses: [ [Object], [Object] ]
+  }
+]
+benson@Rs-MacBook-Pro sv-quickstart %
