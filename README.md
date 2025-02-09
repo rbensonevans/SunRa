@@ -60,10 +60,117 @@ Response:
 
 * Social Media Handles: LinkedIn, X, Github, etc.
 
-	
 
-* Add supporting detail
+## Input: Work-Token Ask.
 
-* Add supporting detail
+* Total Amount: { “Ask”: “11.3MM” }
 
-* Add supporting detail
+* Board of Directors { “Number”: 5, “Amount”: “100K” }
+
+* CSuite { “Number”: 5, “Amount”: “1.2MM” }
+
+* Managers { “Number”: 10, “Amount”: “1MM” }
+
+* Developers { “Number”: 25, “Amount”: “5MM” }
+
+* Associates { “Number”: 20, “Amount”: “2MM” }
+
+* Equipment { “Cost”: “2MM” }
+
+* Runway { “Years”: 3 }
+
+
+## Agentic Actions
+
+## Workflow
+
+## Tokenomics
+
+## Secondary Market Activities
+
+## Future
+
+## Evaluation: Hackathon Agentic Systems (Videos)
+
+Nethermind
+
+* Agentic Frameworks.  
+* Autonomous Systems.
+
+
+Crestal \- IntentKit
+
+* Agentic Framework.
+
+Flow (check this out)
+
+* Manage Crypto Wallets.  
+* Bundled Transactions.  
+* Account Management.  
+* Access Permissions.  
+* Eliza Plugin.   
+* ElizaOnFlow.  
+* Interesting Interface.
+
+Autonome
+
+* DeFi, Social, Innovative Agents.  
+* Frameworks: Eliza, Agentkit, Hyperbolic, User-created.  
+* Twitter  
+* Deploy Agents.
+
+Nillion (check this out)
+
+* SecretVault (decentralized storage solution for secure data like user data).  
+* Swarm (data sharing)  
+* APIs (schemas, etc)  
+* Wrapper libraries  
+* nilQL.
+
+Lit Agent Wallet
+
+* Programmable Keypairs.  
+* Immutable Javascript code published to IPFS.  
+* Admin vs Delegatee.  
+* Wallet Demo (messages???)
+
+Coinbase AgentKit (check this out)
+
+* Onchain Base AI Agent. (Wallet per Agent).  
+* Onchain Apps.  
+* Wallets, Onramp, Paymaster, Onchain Kit.  
+* Coinbase Developer Platform.  
+* AgentKit: Plug in to any Framework.  
+* Talk to an Agent in NLP and actions are executed.  
+* Human Assistants or Fully Autonomous Agents.  
+* Agentic commerce (Byte Ai: voice activated, automatic food delivery).  
+* Agents with Decentralized Compute.  
+* AI Robot Dogs with Wallets.  
+* Join discord; See github: coinbase/agentkit.   
+* See “typescript/agentkit and langChain directory on git”. See README.md  
+* Chatbot examples: (see agentkit/typescript/examples). (see 16:00 on video)  
+* See create react agent; nice interface; one to use.  
+* Eliza plugin; installed by default; demo by contributor.  
+* Github: elizaOS/eliza/packages/plugin-agentkit. (YT: 26:00)  
+* Telegram; No WhatsApp.
+
+Ali Merchant (Warden Agent Kit)
+
+* Solidity contract templates.  
+* LangChain integration.  
+* Npm package.  
+* Github: Warden-protocol/agent-kit.  
+* Integration with X (Twitter).  
+* Demo explained: (YT: @3:44).  
+* Demo (YT: @7:11).
+
+AI on Base (L2 on Ethereum) (a talk on base and the AI ecosystem)
+
+* Discord. ([base.org/discord](http://base.org/discord)).  
+* App building; technical support. Grants.  
+* Farcaster account (recommended); Onchain community.  
+* Documents: docs.base.org. Learn to build.  
+* OnChainKit.xyz. Github: onchain-app-template; (Webpage/full stack app/Agentkit).  
+* See [x.com/binns](http://x.com/binns) (lists AI projects).  
+* More ecosystem apps; base.org/ecosystem.
+
