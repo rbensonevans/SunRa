@@ -20,13 +20,13 @@ Prompt engineering is the new modus operandi for interacting with A.I. systems.
 
 Input Prompt: 
 
-A One-Pager summarizing one’s Startup business plan and request for “work-tokens”.
+	A One-Pager summarizing one’s Startup business plan and request for “work-tokens”.
 
 Response:
 
 	You are funded with “work-tokens”.
 
-## The One-Pager
+## Input: The One-Pager
 
 * Founder’s Name & Address
 
@@ -82,13 +82,55 @@ Response:
 
 ## Agentic Actions
 
+Each section is handled by a different A.I agent.
+
+→Business summary: (Search Engines) (Saved)..  
+→Problem. Solution. Benefits. Features. (Saved)..  
+→Background checks:  social media (LinkedIn, Github, X, etc).  
+→Industry checks: (Search Engines).  
+→Market size. (Saved).  
+→Target Market.(Saved).  
+→Target Customer. (Saved).  
+→Revenue projections. (Saved).  
+→Milestones. (Saved).  
+→Exit Strategy. (Saved).  
+   
+⇒ Result: A score and “you’re funded” with work-tokens. (Saved).
+
 ## Workflow
+
+{ User } → { Super AI Agent } → { Saves Data or Routes to Agentic AI 1 to N } → { AI } → { Response } → { Super AI Agent } → { User }
 
 ## Tokenomics
 
+{ AI Token Pool } → { Startups Apply } → { Tokens awarded: Startups 1 to N}   
+{ Company hires employees (and pays for equipment from token friendly merchants). }  
+{ Employees Provide Weekly Timesheets & Status Reports } → { Employees awarded work-tokens. }  
+{ Employees Redeem tokens for Cash from the company at flexible dates: 30 to 120 day intervals. }  
+{ Company raises capital from founders, friends and family networks and investors }  
+{ Redeemed tokens are sent to the ecosystem statistics office and destroyed at a recycling office. }  
+{ Company starts earning revenue and the work-tokens can be redeemed weekly. }  
+{ Company is a success. }
+
+Note: When tokens are redeemed by employees at 30 to 120 past due day intervals this gives the company time to raise capital. However, the work performed is always rewarded weekly.  
+ 
+
 ## Secondary Market Activities
 
-## Future
+{ Traders can bet on the economic health of companies. }  
+{ Market instruments can be created: Stocks, Options, Futures etc. }  
+{ Exchanges can be created. }
+
+## Future Possibilities
+
+{ Create an ecosystem currency. }  
+{ Work-tokens can be exchanged for the ecosystem currency. }  
+{ Precious metals tokens which can rise or fall in value can be created. }  
+{ These precious metals tokens would act as long term stores of value. }  
+{ Exchange rates: }  
+{ Gold tokens: require 1000 Silver tokens. }  
+{ Silver tokens: require 100  Copper tokens. }  
+{ Copper tokens require 100 Work-tokens. } 
 
 ## Evaluation: Hackathon Agentic Systems (Videos)
 
@@ -173,4 +215,3 @@ AI on Base (L2 on Ethereum) (a talk on base and the AI ecosystem)
 * OnChainKit.xyz. Github: onchain-app-template; (Webpage/full stack app/Agentkit).  
 * See [x.com/binns](http://x.com/binns) (lists AI projects).  
 * More ecosystem apps; base.org/ecosystem.
-
